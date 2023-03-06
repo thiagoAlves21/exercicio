@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.login {
+    height: 480px;
+    width: 769px;
+    border-radius: 11px;
+    box-shadow: 0 5px 20px #a0a0a0;
+    overflow: hidden;
+    position: relative;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.form-contene {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.form-login {
+    height: 100%;
+    background-color: blanchedalmond;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 0;
+
+}
+
+.form-cadastro {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.forma-input {
+    padding: 5px;
+    border-style: none;
+    background-color: rgb(250, 250, 250);
+}
+
+.botao {
+    border-style: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid tomato;
+    cursor: pointer;
+    font-size: 16px;
+    color: tomato;
+    background-color: transparent;
+    transition: 3s;
+
+}
+
+.cria-conta {
+    justify-content: center;
+    display: flex;
+    margin-top: 55px;
+
+}
+
+.input-b {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 80px;
+    margin-top: 20px;
+
+}
+
+.forma-input-b {
+    width: 210px;
+    padding: 5px;
+    border-style: none;
+    background-color: rgb(250, 250, 250);
+
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botao-2 {
+    border-style: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid tomato;
+    cursor: pointer;
+    font-size: 16px;
+    color: tomato;
+    background-color: transparent;
+    transition: 3s;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.texto-2 {
+    margin-left: 160px;
+    margin-top: 50px;
+}
+
+.overlay{
+    width: 50%;
+    height: 100%;
+  
+    position: absolute;
+    bottom: 0px;
+    transform: translateX(100%);
+    color: white;
+    transition: 1s;
+}
+.overla{
+width: 100%;
+height: 100%;
+background-color: tomato;
+position: absolute;
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+align-items: center;
+text-align: center;
+
+
+}
+.botao-3{
+    border-style: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    transition: 3s;
+    margin-top: 30px;
+   
+}
+.login.move .overlay{
+   transform: translateX(0%); 
+}
+.login.move .overlay:nth-child(2){
+opacity: 1;
+
+}
